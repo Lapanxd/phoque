@@ -1,0 +1,39 @@
+body {
+    background: url("https://i.pinimg.com/originals/73/0b/32/730b321ecd9774c6a17eacf601abc5fb.png") no-repeat;
+    background-size: cover;
+}
+
+header {
+    background: rgba(128, 0, 128, 0.54);
+    padding: 0.5rem;
+    text-align: center;
+}
+
+h1 {
+    color: red;
+    text-decoration: underline;
+}
+
+h2 {
+    color: green;
+    margin: 0;
+}
+
+p {
+    background: blue;
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.card {
+    background: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 1rem;
+}
